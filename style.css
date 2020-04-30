@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+header nav a .BRlogo{
+    width: 146px;
+}
+
+header nav a .BRStore{
+    width: 38px;
+}
+
+header nav a .BRStaff{
+    width: 38px;
+}
+
+header nav a .BRwindow{
+    width: 38px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.logoBtn:hover{
+    opacity: .6;
+}
+
+
+header  nav a{
+    margin: 0px 30px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+header nav a.linkItem:hover{
+    background-color: #de0d85;
+    color:white;
+}
+
+.sectionOne{
+    display: flex;
+    justify-content: center;
+    margin: 5px 20px;
+}
+
+.sectionTwo{
+    display: flex;
+    justify-content: center;
+    color: red;
+    padding: 10px;
+}
+
+.sectionTwo figure img{
+    color: red;
+    height: 100px;
+    margin: 5px;
+}
+
+.sectionThree{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.sectionThree .section-title{
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+.sectionThree .section-content{
+    width: 650px;
+    color: red;
+}
+
+.sectionThree div .section-title h2{
+    color: red;
+}
+.sectionFour{
+    margin-top: 70px;
+}
+
+.sectionFour .section-content{
+    text-align: center;
+    width: 100%;
+    margin-bottom:20px ;
+}
+
+.sectionFour .section-content .flavor p.en{
+    background: url(./001.svg) center 35%  no-repeat;
+    margin: 18px auto 0;
+    width: 1024px;
+}
+
+.sectionFour .section-content .flavor p.en span{
+    padding: 0 20px;
+    background-color: white;
+    color: #de0d85;
+    font-size: 2.4rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
