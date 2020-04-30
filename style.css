@@ -107,3 +107,41 @@ header nav a.linkItem:hover{
     font-size: 2.4rem;
     font-family: 'Josefin Sans', sans-serif;
 }
+
+.sectionFive{
+    width: 60%;
+    height: 400%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionFive .leftArrow{
+    width: 15%;
+    margin: auto;
+}
+
+.sectionFive .leftArrow figure img{
+    width: 20px;
+    height:auto;
+}
+
+.sectionFive .RightArrow{
+    width: 15%;
+    margin: auto;
+}
+
+.sectionFive .RightArrow figure img{
+    width: 20px;
+    height: auto;
+}
+
+.sectionFive .section-content{
+    display: flex;
+    margin: auto;
+}
+
+.sectionFive .section-content div{
+    margin: auto;
+}
+
