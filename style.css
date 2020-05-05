@@ -158,11 +158,46 @@ header nav a.linkItem:hover{
     margin-bottom: 50px;    
 }
 
+.sectionSeven div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
 .sectionSeven div small{
     display: flex;
     justify-content: center;
-    font-size: 30px;
-    color:white 
-    background-color:black;
+    font-size: 20px;
+    border: 1px solid white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 10px 50px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
 
+.sectionSeven div small:hover{
+    color: black;
+    background: white;
+    transform: scale(1.5);
+}
+
+.sectionEight div h2 figure span{
+    background-color:#de0d85 ;
+}
+
+.sectionEight div h2{
+    display: flex;
+    justify-content: center;
+}
+
+.sectionEight div h2 figure{
+    display: flex;
+    justify-content: center;
 }
